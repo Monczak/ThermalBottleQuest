@@ -1,0 +1,50 @@
+{
+    "name": "Misc Controls",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "d622f122-d6ed-4cce-beb7-de76a1addc2a",
+            "actions": [
+                {
+                    "name": "Any Key",
+                    "type": "Button",
+                    "id": "5526aff5-cb74-4651-a94f-9af1a0697154",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26a1b7f5-c0a0-41e6-bdc4-66b7599d586d",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard & Mouse",
+                    "action": "Any Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard & Mouse",
+            "bindingGroup": "Keyboard & Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

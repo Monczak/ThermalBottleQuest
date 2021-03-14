@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Poolable
+  - Intro Text
+  - Intro Logo
+  - Intro Canvas
+  - Main Menu
   layers:
   - Default
   - TransparentFX

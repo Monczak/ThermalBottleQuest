@@ -9,6 +9,7 @@ public class FunFactPanel : MonoBehaviour
     public TMP_Text text;
 
     public Canvas parentCanvas;
+    private Canvas thisCanvas;
     private RectTransform rectTransform;
 
     public float screenWidthThreshold;
@@ -16,6 +17,7 @@ public class FunFactPanel : MonoBehaviour
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
+        thisCanvas = GetComponent<Canvas>();
     }
 
     // Start is called before the first frame update
