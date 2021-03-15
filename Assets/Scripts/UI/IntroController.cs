@@ -15,7 +15,7 @@ public class IntroController : MonoBehaviour
 
     private void AnyKey_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
-        StartCoroutine(GameManager.Instance.MainMenuIntroFadeCutscene());
+        StartCoroutine(CutsceneManager.Instance.MainMenuIntroFadeCutscene());
         controls.Disable();
     }
 
